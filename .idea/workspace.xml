@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
         <option value="Enum" />
       </list>
     </option>
@@ -38,7 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DFyZrHnElGjPi9g8m1QPUKCdhr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660309189889</updated>
-      <workItem from="1661088924594" duration="3897000" />
+      <workItem from="1661088924594" duration="4099000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <created>1660309404375</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661090159364</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tilføjede en basisk struktur">
+      <created>1661123036096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661123036096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +124,7 @@
     <MESSAGE value="asdf" />
     <MESSAGE value="Added better strings git guts" />
     <MESSAGE value="I am comitted!" />
-    <option name="LAST_COMMIT_MESSAGE" value="I am comitted!" />
+    <MESSAGE value="Tilføjede en basisk struktur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjede en basisk struktur" />
   </component>
 </project>
