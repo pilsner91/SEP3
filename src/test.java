@@ -10,5 +10,7 @@ public class test {
                 Remember to use %s
                 and use all the proper %s
                 """.formatted(type, variables));
+
+        SingletonBitches.INSTANCE.tellMeImAwesome("String");
     }
 }
