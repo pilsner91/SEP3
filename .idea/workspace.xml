@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="" />
+    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="Tilføjede maven framework.&#10;Tilføjet pom.xml som følge af maven framework.&#10;Ændrede navn på projektet til &quot;SEP3&quot;.&#10;Alt kode mæssigt er rykket under SEP3.src.java&#10;Dedikeret mappe til test under SEP3.src">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tanker" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tanker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/distSystem/server/core/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/distSystem/server/core/ModelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/distSystem/server/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/distSystem/server/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/distSystem/server/model/ServerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/distSystem/server/model/ServerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SEP3.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SEP3.iml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/untitled.iml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="vvq8zeaw" />
@@ -49,11 +61,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="untitled" />
+      <module name="SEP3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SEP3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SEP3" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,6 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660309189889</updated>
       <workItem from="1661088924594" duration="4099000" />
+      <workItem from="1661185019329" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <created>1660309404375</created>
@@ -125,6 +154,7 @@
     <MESSAGE value="Added better strings git guts" />
     <MESSAGE value="I am comitted!" />
     <MESSAGE value="Tilføjede en basisk struktur" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tilføjede en basisk struktur" />
+    <MESSAGE value="Tilføjede maven framework.&#10;Tilføjet pom.xml som følge af maven framework.&#10;Ændrede navn på projektet til &quot;SEP3&quot;.&#10;Alt kode mæssigt er rykket under SEP3.src.java&#10;Dedikeret mappe til test under SEP3.src" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjede maven framework.&#10;Tilføjet pom.xml som følge af maven framework.&#10;Ændrede navn på projektet til &quot;SEP3&quot;.&#10;Alt kode mæssigt er rykket under SEP3.src.java&#10;Dedikeret mappe til test under SEP3.src" />
   </component>
 </project>
