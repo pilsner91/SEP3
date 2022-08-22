@@ -1,4 +1,4 @@
-package main.java.server.model;
+package server.model;
 
 public interface ServerModel {
 }
