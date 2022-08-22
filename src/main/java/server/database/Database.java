@@ -1,4 +1,4 @@
-package main.java.server.database;
+package server.database;
 
 public interface Database {
 }
