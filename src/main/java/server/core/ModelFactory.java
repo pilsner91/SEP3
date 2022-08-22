@@ -1,4 +1,4 @@
-package main.java.distSystem.server.core;
+package main.java.server.core;
 
 public enum ModelFactory {
     Instance;
