@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/core/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/core/ModelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/model/ServerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/model/ServerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <updated>1660309189889</updated>
       <workItem from="1661088924594" duration="4099000" />
       <workItem from="1661185019329" duration="402000" />
-      <workItem from="1661189363835" duration="385000" />
+      <workItem from="1661189363835" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <created>1660309404375</created>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661189515579</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fiksede package imports">
+      <created>1661189776485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661189776485</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +156,7 @@
     <MESSAGE value="Tilføjede en basisk struktur" />
     <MESSAGE value="Tilføjede maven framework.&#10;Tilføjet pom.xml som følge af maven framework.&#10;Ændrede navn på projektet til &quot;SEP3&quot;.&#10;Alt kode mæssigt er rykket under SEP3.src.java&#10;Dedikeret mappe til test under SEP3.src" />
     <MESSAGE value="Mere maven test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mere maven test" />
+    <MESSAGE value="Fiksede package imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fiksede package imports" />
   </component>
 </project>
