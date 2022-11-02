@@ -3,7 +3,7 @@
 @using global::Shared.DTOs
 
 
-@inject IWareService Service;
+@inject IItemService Service;
 
 <h3>CreateWare</h3>
 
@@ -42,9 +42,9 @@
 @code {
 
 
-    private string kundeNummer;
-    private string vareNummer;
-    private string vareAntal;
+    private int? kundeNummer;
+    private int? vareNummer;
+    private int? vareAntal;
     private string resultMsg;
     private string color;
 
@@ -52,10 +52,10 @@
     {
         try
         {
-            await Service.Create(new WareCreationDto(kundeNummer, vareNummer, vareAntal));
-            kundeNummer = "";
-            vareNummer = "";
-            vareAntal = "";
+            await Service.Create(new ItemCreationDto(kundeNummer, vareNummer, vareAntal));
+            kundeNummer = null;
+            vareNummer = null;
+            vareAntal = null;
             resultMsg = "";
             color = "green";
         }

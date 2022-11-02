@@ -3,10 +3,10 @@ using Shared.Model;
 
 namespace HttpClients.ClientInterfaces; 
 
-public interface IWareService {
+public interface IItemService {
 
 
 
-    Task<Ware> Create(WareCreationDto dto);
+    Task<Item> Create(ItemCreationDto dto);
 
 }

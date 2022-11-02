@@ -6,26 +6,26 @@ using Shared.Model;
 
 namespace HttpClients.Implementations; 
 
-public class WareHttpClient : IWareService {
+public class ItemHttpClient : IItemService {
     
     private HttpClient client;
 
-    public WareHttpClient(HttpClient client) {
+    public ItemHttpClient(HttpClient client) {
         this.client = client;
     }
 
-    public async Task<Ware> Create(WareCreationDto dto) {
-        HttpResponseMessage response = await client.PostAsJsonAsync("/wares", dto);
+    public async Task<Item> Create(ItemCreationDto dto) {
+        HttpResponseMessage response = await client.PostAsJsonAsync("/items", dto);
         string result = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(result);
         }
 
-        Ware ware = JsonSerializer.Deserialize<Ware>(result, new JsonSerializerOptions
+        Item item = JsonSerializer.Deserialize<Item>(result, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
         })!;
-        return ware;
+        return item;
     }
 }
