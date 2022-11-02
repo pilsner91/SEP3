@@ -1,3 +1,6 @@
+using System.Text.Json;
+using GRPCClient;
+using GrpcService1;
 using Logic.LogicInterfaces;
 using Shared.DTOs;
 using Shared.Model;
@@ -5,7 +8,16 @@ using Shared.Model;
 namespace Logic.Logic; 
 
 public class WareLogic : IWareLogic {
-    public Task<Ware> CreateAsync(WareCreationDto dto) {
-        throw new NotImplementedException();
+    public async Task<Ware> CreateAsync(WareCreationDto dto) {
+
+        HelloRequest request = new HelloRequest();
+
+        request.Name = "Test";
+        
+        Task<HelloReply> reply = EtellerAndet.PingServerAsync(request);
+
+        Ware ware = new Ware();
+
+        return ware;
     }
 }
