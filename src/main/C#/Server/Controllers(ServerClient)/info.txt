@@ -1,1 +1,0 @@
-her kommer vi til at have de info hvor vi forbinder vores server med vores Client ved hjælp af HTTP

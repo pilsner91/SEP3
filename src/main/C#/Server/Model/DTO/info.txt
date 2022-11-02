@@ -1,2 +1,0 @@
-Det er her vi laver de filer som mangler nogle ting for at vi kan lave den endelige objekt prøv at tænk
-en User uden ID eller en varenavn istedet for varereference
