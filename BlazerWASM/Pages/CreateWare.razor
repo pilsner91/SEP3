@@ -1,38 +1,40 @@
 ﻿@page "/CreateWare"
 @using HttpClients.ClientInterfaces
 @using global::Shared.DTOs
-@using System.Runtime.CompilerServices
 
-@inject IWareService _service;
+
+@inject IWareService Service;
 
 <h3>CreateWare</h3>
 
 <div class="card">
     <div>
         <div>
-            <label>Kundenummer</label>
-            <input type="text" @bind="kundeNummer"/>
-            @if (!string.IsNullOrEmpty(resultMsg))
-            {
-                <label style="color: @color">@resultMsg</label>
-            }
-            
-            <label>Varenummer</label>
-            <input type="text" @bind="vareNummer"/>
-            @if (!string.IsNullOrEmpty(resultMsg))
-            {
-                <label style="color: @color">@resultMsg</label>
-            }
-            
-            <label>Vare antal</label>
-            <input type="text" @bind="vareAntal"/>
-            @if (!string.IsNullOrEmpty(resultMsg))
-            {
-                <label style="color: @color">@resultMsg</label>
-            }
-            
-            <button @onclick="createWare"class="acceptbtn">Create</button>
+        <label>Kundenummer</label>
+        <input type="text" @bind="kundeNummer"/>
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
         </div>
+        <div>
+        <label>Varenummer</label>
+        <input type="text" @bind="vareNummer"/>
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
+        </div>
+    <div>
+        <label>Vare antal</label>
+        <input type="text" @bind="vareAntal"/>
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
+        </div>
+
+        <button @onclick="createWare" class="acceptbtn">Create</button>
     </div>
 </div>
 
@@ -50,7 +52,7 @@
     {
         try
         {
-            await _service.Create(new WareCreationDto(kundeNummer, vareNummer, vareAntal));
+            await Service.Create(new WareCreationDto(kundeNummer, vareNummer, vareAntal));
             kundeNummer = "";
             vareNummer = "";
             vareAntal = "";
