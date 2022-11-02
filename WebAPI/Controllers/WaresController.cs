@@ -11,6 +11,11 @@ public class WaresController : ControllerBase {
 
     private IWareLogic wareLogic;
 
+
+    public WaresController(IWareLogic wareLogic) {
+        this.wareLogic = wareLogic;
+    }
+
     [HttpPost]
     public async Task<ActionResult<Ware>> CreateAsync(WareCreationDto dto) {
         try {
