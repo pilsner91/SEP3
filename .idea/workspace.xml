@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="ordne struktur og info om hvad der skal være i de fleste elementer">
+    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="Pom.xml dependencyise til grpc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/HelloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/HelloServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/HelloService.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SEP3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SEP3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -50,18 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\via\SEP3\SEP3\src\main\C#" />
       <recent name="C:\via\SEP3\SEP3\src\main\Server" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="server" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DatabaseTest">
@@ -108,7 +119,7 @@
       <workItem from="1665575574390" duration="1348000" />
       <workItem from="1665577144951" duration="317000" />
       <workItem from="1667374698004" duration="141000" />
-      <workItem from="1667374855945" duration="353000" />
+      <workItem from="1667374855945" duration="1734000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <created>1660309404375</created>
@@ -173,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665576434399</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pom.xml dependencyise til grpc">
+      <created>1667375245142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667375245142</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Pom.xml dependencyise til grpc">
+      <created>1667375277017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667375277017</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +224,7 @@
     <MESSAGE value="Mere maven test" />
     <MESSAGE value="Fiksede package imports" />
     <MESSAGE value="ordne struktur og info om hvad der skal være i de fleste elementer" />
-    <option name="LAST_COMMIT_MESSAGE" value="ordne struktur og info om hvad der skal være i de fleste elementer" />
+    <MESSAGE value="Pom.xml dependencyise til grpc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pom.xml dependencyise til grpc" />
   </component>
 </project>
