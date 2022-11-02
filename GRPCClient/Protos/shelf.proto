@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "item.proto";
+
+option csharp_namespace = "GRPCClient";
+
+package shelf;
+
+message SearchShelfParametersProto {
+  int32 id = 1;
+}
+
+message Shelf {
+  string row_no = 1;
+  string shelf_no = 2;
+  double dimension_x = 3;
+  double dimension_y = 4;
+  double dimension_z = 5;
+  repeated item.Item items_on_shelf = 6;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "GRPCClient";
+
+package user;
+
+message User {
+  int32 id = 1;
+    }
