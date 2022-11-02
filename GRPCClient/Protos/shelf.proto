@@ -1,10 +1,14 @@
 syntax = "proto3";
 
-import "item.proto";
+import "Protos/item.proto";
 
 option csharp_namespace = "GRPCClient";
 
 package shelf;
+
+service Shelves {
+  rpc GetShelf(SearchShelfParametersProto) returns (Shelf);
+}
 
 message SearchShelfParametersProto {
   int32 id = 1;

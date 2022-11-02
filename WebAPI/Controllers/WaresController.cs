@@ -9,18 +9,18 @@ namespace WebAPI.Controllers;
 [Route("[Controller]")]
 public class WaresController : ControllerBase {
 
-    private IWareLogic wareLogic;
+    private IItemLogic _itemLogic;
 
 
-    public WaresController(IWareLogic wareLogic) {
-        this.wareLogic = wareLogic;
+    public WaresController(IItemLogic itemLogic) {
+        this._itemLogic = itemLogic;
     }
 
     [HttpPost]
-    public async Task<ActionResult<Ware>> CreateAsync(WareCreationDto dto) {
+    public async Task<ActionResult<Item>> CreateAsync(ItemCreationDto dto) {
         try {
-            Ware ware = await wareLogic.CreateAsync(dto);
-            return Created($"/todos/{ware.VareNummer}", ware);
+            Item item = await _itemLogic.CreateAsync(dto);
+            return Created($"/todos/{item.Uid}", item);
         }
         catch (Exception e) {
             Console.WriteLine(e);

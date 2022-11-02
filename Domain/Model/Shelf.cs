@@ -1,5 +1,5 @@
 namespace Shared.Model; 
 
-public class Location {
+public class Shelf {
     
 }

@@ -7,8 +7,9 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <Protobuf Include="Protos\item.proto" GrpcServices="Client" />
         <Protobuf Include="Protos\shelf.proto" GrpcServices="Client" />
+        <Protobuf Include="Protos\item.proto" GrpcServices="Client" />
+        <Protobuf Include="Protos\user.proto" GrpcServices="Client" />
     </ItemGroup>
 
     <ItemGroup>
@@ -19,10 +20,6 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="GrpcClients" />
     </ItemGroup>
 
 </Project>

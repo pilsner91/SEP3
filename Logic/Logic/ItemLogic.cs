@@ -7,8 +7,8 @@ using Shared.Model;
 
 namespace Logic.Logic; 
 
-public class WareLogic : IWareLogic {
-    public async Task<Ware> CreateAsync(WareCreationDto dto) {
+public class ItemLogic : IItemLogic {
+    public async Task<Item> CreateAsync(ItemCreationDto dto) {
 
         HelloRequest request = new HelloRequest();
 
@@ -16,7 +16,7 @@ public class WareLogic : IWareLogic {
         
         Task<HelloReply> reply = EtellerAndet.PingServerAsync(request);
 
-        Ware ware = new Ware();
+        Item ware = new Item();
 
         return ware;
     }

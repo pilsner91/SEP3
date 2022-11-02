@@ -1,7 +1,6 @@
 syntax = "proto3";
 
-import "shelf.proto";
-import "user.proto";
+import "Protos/user.proto";
 
 option csharp_namespace = "GRPCClient";
 
@@ -23,7 +22,7 @@ message Item {
   ItemType type = 1;
   int32 id = 2;
   user.User owner = 3;
-  shelf.Shelf location = 4;
+  int32 shelf_id = 4;
 }
 
 message ItemType {
