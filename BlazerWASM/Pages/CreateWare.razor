@@ -1,4 +1,10 @@
 ﻿@page "/CreateWare"
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@using System.Runtime.CompilerServices
+
+@inject IWareService _service;
+
 <h3>CreateWare</h3>
 
 <div class="card">
@@ -6,30 +12,58 @@
         <div>
             <label>Kundenummer</label>
             <input type="text" @bind="kundeNummer"/>
+            @if (!string.IsNullOrEmpty(resultMsg))
+            {
+                <label style="color: @color">@resultMsg</label>
+            }
+            
             <label>Varenummer</label>
             <input type="text" @bind="vareNummer"/>
+            @if (!string.IsNullOrEmpty(resultMsg))
+            {
+                <label style="color: @color">@resultMsg</label>
+            }
+            
             <label>Vare antal</label>
             <input type="text" @bind="vareAntal"/>
+            @if (!string.IsNullOrEmpty(resultMsg))
+            {
+                <label style="color: @color">@resultMsg</label>
+            }
+            
+            <button @onclick="createWare"class="acceptbtn">Create</button>
         </div>
-        <div>
-            <button @onclick="createWare">Create</button>
-        </div>
-
     </div>
-
-
 </div>
 
 
 @code {
 
+
     private string kundeNummer;
     private string vareNummer;
     private string vareAntal;
+    private string resultMsg;
+    private string color;
 
-    private void createWare()
+    private async Task createWare()
     {
-        
+        try
+        {
+            await _service.Create(new WareCreationDto(kundeNummer, vareNummer, vareAntal));
+            kundeNummer = "";
+            vareNummer = "";
+            vareAntal = "";
+            resultMsg = "";
+            color = "green";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
     }
+
 
 }
