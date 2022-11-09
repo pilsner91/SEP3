@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="Lidt mere info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/Blazor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/Implementation/ClientOrImplementation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/interfaceClient/IClient" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Controllers(ServerClient)/info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Model/DTO/info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Model/Model/info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Sender/Sender.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BlazerWASM/obj/Debug/net6.0/BlazerWASM.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BlazerWASM/obj/Debug/net6.0/BlazerWASM.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BlazerWASM/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BlazerWASM/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazerWASM/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/C#/BlazerWASM/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GRPC/obj/Debug/net6.0/GRPC.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GRPC/obj/Debug/net6.0/GRPC.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GRPC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GRPC/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Logic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Logic/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Shared/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Shared/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebAPI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Safe" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/via/SEP3/SEEP/SEP3"
+    "last_opened_file_path": "C:/via/SEP3/safffe"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -113,6 +115,8 @@
       <workItem from="1661189363835" duration="1511000" />
       <workItem from="1665575574390" duration="1348000" />
       <workItem from="1665577144951" duration="317000" />
+      <workItem from="1667381648112" duration="27000" />
+      <workItem from="1667382143962" duration="194000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <created>1660309404375</created>
