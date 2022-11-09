@@ -4,7 +4,6 @@ import "Protos/user.proto";
 
 option csharp_namespace = "GRPCClient";
 
-//Test
 
 package item;
 
