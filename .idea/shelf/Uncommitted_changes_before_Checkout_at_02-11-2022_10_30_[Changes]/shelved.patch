@@ -1,0 +1,90 @@
+Index: src/main/BlazerWASM/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754029159457
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/BlazerWASM/obj/rider.project.restore.info b/src/main/BlazerWASM/obj/rider.project.restore.info
+--- a/src/main/BlazerWASM/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/BlazerWASM/obj/rider.project.restore.info	(date 1667381374558)
+@@ -1,1 +1,1 @@
+-16673754029159457
+\ No newline at end of file
++16673813745469832
+\ No newline at end of file
+Index: src/main/C#/BlazerWASM/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754029239197
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/C#/BlazerWASM/obj/rider.project.restore.info b/src/main/C#/BlazerWASM/obj/rider.project.restore.info
+--- a/src/main/C#/BlazerWASM/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/C#/BlazerWASM/obj/rider.project.restore.info	(date 1667381374557)
+@@ -1,1 +1,1 @@
+-16673754029239197
+\ No newline at end of file
++16673813745480003
+\ No newline at end of file
+Index: src/main/GRPC/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754028426811
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/GRPC/obj/rider.project.restore.info b/src/main/GRPC/obj/rider.project.restore.info
+--- a/src/main/GRPC/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/GRPC/obj/rider.project.restore.info	(date 1667381374556)
+@@ -1,1 +1,1 @@
+-16673754028426811
+\ No newline at end of file
++16673813744827275
+\ No newline at end of file
+Index: src/main/Shared/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754026813632
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/Shared/obj/rider.project.restore.info b/src/main/Shared/obj/rider.project.restore.info
+--- a/src/main/Shared/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/Shared/obj/rider.project.restore.info	(date 1667381374559)
+@@ -1,1 +1,1 @@
+-16673754026813632
+\ No newline at end of file
++16673813743499662
+\ No newline at end of file
+Index: src/main/Logic/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754026828084
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/Logic/obj/rider.project.restore.info b/src/main/Logic/obj/rider.project.restore.info
+--- a/src/main/Logic/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/Logic/obj/rider.project.restore.info	(date 1667381374555)
+@@ -1,1 +1,1 @@
+-16673754026828084
+\ No newline at end of file
++16673813743533255
+\ No newline at end of file
+Index: src/main/WebAPI/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754028493853
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/WebAPI/obj/rider.project.restore.info b/src/main/WebAPI/obj/rider.project.restore.info
+--- a/src/main/WebAPI/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/WebAPI/obj/rider.project.restore.info	(date 1667381374555)
+@@ -1,1 +1,1 @@
+-16673754028493853
+\ No newline at end of file
++16673813744575126
+\ No newline at end of file

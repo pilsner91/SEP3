@@ -1,0 +1,165 @@
+Index: ../../../.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../../.idea/workspace.xml b/../../../.idea/workspace.xml
+--- a/../../../.idea/workspace.xml	
++++ b/../../../.idea/workspace.xml	
+@@ -4,15 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="Lidt mere info">
++    <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="Grpc implementation">
++      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/Blazor.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/Implementation/ClientOrImplementation" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/interfaceClient/IClient" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Controllers(ServerClient)/info.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Model/DTO/info.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Model/Model/info" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Sender/Sender.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -57,17 +52,22 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/via/SEP3/SEEP/SEP3"
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\via\SEP3\SEP3\src\main\C#" />
+       <recent name="C:\via\SEP3\SEP3\src\main\Server" />
++    </key>
++    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
++      <recent name="server" />
+     </key>
+   </component>
+   <component name="RunManager" selected="JUnit.DatabaseTest">
+@@ -113,6 +113,8 @@
+       <workItem from="1661189363835" duration="1511000" />
+       <workItem from="1665575574390" duration="1348000" />
+       <workItem from="1665577144951" duration="317000" />
++      <workItem from="1667374698004" duration="141000" />
++      <workItem from="1667374855945" duration="5331000" />
+     </task>
+     <task id="LOCAL-00001" summary="asdf">
+       <created>1660309404375</created>
+@@ -177,7 +179,35 @@
+       <option name="project" value="LOCAL" />
+       <updated>1665576434399</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Pom.xml dependencyise til grpc">
++      <created>1667375245142</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1667375245142</updated>
++    </task>
++    <task id="LOCAL-00011" summary="Pom.xml dependencyise til grpc">
++      <created>1667375277017</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1667375277017</updated>
++    </task>
++    <task id="LOCAL-00012" summary="Grpc implementation">
++      <created>1667376624131</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1667376624131</updated>
++    </task>
++    <task id="LOCAL-00013" summary="Grpc implementation">
++      <created>1667376665284</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1667376665284</updated>
++    </task>
++    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -203,6 +233,8 @@
+     <MESSAGE value="Mere maven test" />
+     <MESSAGE value="Fiksede package imports" />
+     <MESSAGE value="ordne struktur og info om hvad der skal være i de fleste elementer" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ordne struktur og info om hvad der skal være i de fleste elementer" />
++    <MESSAGE value="Pom.xml dependencyise til grpc" />
++    <MESSAGE value="Grpc implementation" />
++    <option name="LAST_COMMIT_MESSAGE" value="Grpc implementation" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../../../SEP3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../../SEP3.iml b/../../../SEP3.iml
+--- a/../../../SEP3.iml	
++++ b/../../../SEP3.iml	
+@@ -8,6 +8,8 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/protobuf/grpc-java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/protobuf/java" isTestSource="false" />
+       <excludeFolder url="file://$MODULE_DIR$/target" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+@@ -20,5 +22,37 @@
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-params:5.9.1" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.9.1" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.9.1" level="project" />
++    <orderEntry type="library" name="Maven: io.grpc:grpc-netty:1.49.2" level="project" />
++    <orderEntry type="library" name="Maven: io.grpc:grpc-core:1.49.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.9.0" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.android:annotations:4.1.1.4" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.21" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-codec-http2:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.77.Final" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-handler-proxy:4.1.77.Final" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-codec-socks:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: com.google.guava:guava:31.1-android" level="project" />
++    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
++    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
++    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.12.0" level="project" />
++    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
++    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.14.0" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: io.perfmark:perfmark-api:0.25.0" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport-native-unix-common:4.1.77.Final" level="project" />
++    <orderEntry type="library" name="Maven: io.grpc:grpc-protobuf:1.49.2" level="project" />
++    <orderEntry type="library" name="Maven: io.grpc:grpc-api:1.49.2" level="project" />
++    <orderEntry type="library" name="Maven: io.grpc:grpc-context:1.49.2" level="project" />
++    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
++    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.21.7" level="project" />
++    <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-common-protos:2.9.0" level="project" />
++    <orderEntry type="library" name="Maven: io.grpc:grpc-protobuf-lite:1.49.2" level="project" />
++    <orderEntry type="library" name="Maven: io.grpc:grpc-stub:1.49.2" level="project" />
++    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+   </component>
+ </module>
+\ No newline at end of file

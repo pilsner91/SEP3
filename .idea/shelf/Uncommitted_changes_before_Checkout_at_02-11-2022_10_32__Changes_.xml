@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_02-11-2022_10_32_[Changes]" date="1667381528219" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02-11-2022_10_32_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 02-11-2022 10:32 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="src/main/BlazerWASM/obj/Debug/net6.0/BlazerWASM.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="src/main/BlazerWASM/obj/Debug/net6.0/BlazerWASM.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02-11-2022_10_32_[Changes]/BlazerWASM.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/main/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="src/main/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02-11-2022_10_32_[Changes]/WebAPI.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/main/GRPC/obj/Debug/net6.0/GRPC.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="src/main/GRPC/obj/Debug/net6.0/GRPC.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02-11-2022_10_32_[Changes]/GRPC.csproj.AssemblyReference.cache" />
+  </binary>
+</changelist>

@@ -1,0 +1,157 @@
+Index: src/main/BlazerWASM/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754029159457
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/BlazerWASM/obj/rider.project.restore.info b/src/main/BlazerWASM/obj/rider.project.restore.info
+--- a/src/main/BlazerWASM/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/BlazerWASM/obj/rider.project.restore.info	(date 1667381528154)
+@@ -1,1 +1,1 @@
+-16673754029159457
+\ No newline at end of file
++16673813745469832
+\ No newline at end of file
+Index: src/main/C#/BlazerWASM/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754029239197
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/C#/BlazerWASM/obj/rider.project.restore.info b/src/main/C#/BlazerWASM/obj/rider.project.restore.info
+--- a/src/main/C#/BlazerWASM/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/C#/BlazerWASM/obj/rider.project.restore.info	(date 1667381528162)
+@@ -1,1 +1,1 @@
+-16673754029239197
+\ No newline at end of file
++16673813745480003
+\ No newline at end of file
+Index: src/main/GRPC/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754028426811
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/GRPC/obj/rider.project.restore.info b/src/main/GRPC/obj/rider.project.restore.info
+--- a/src/main/GRPC/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/GRPC/obj/rider.project.restore.info	(date 1667381528171)
+@@ -1,1 +1,1 @@
+-16673754028426811
+\ No newline at end of file
++16673813744827275
+\ No newline at end of file
+Index: src/main/Shared/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754026813632
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/Shared/obj/rider.project.restore.info b/src/main/Shared/obj/rider.project.restore.info
+--- a/src/main/Shared/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/Shared/obj/rider.project.restore.info	(date 1667381528178)
+@@ -1,1 +1,1 @@
+-16673754026813632
+\ No newline at end of file
++16673813743499662
+\ No newline at end of file
+Index: src/main/Logic/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754026828084
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/Logic/obj/rider.project.restore.info b/src/main/Logic/obj/rider.project.restore.info
+--- a/src/main/Logic/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/Logic/obj/rider.project.restore.info	(date 1667381528185)
+@@ -1,1 +1,1 @@
+-16673754026828084
+\ No newline at end of file
++16673813743533255
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"53e2bb80-8172-4aea-b459-c96f19318726\" name=\"Changes\" comment=\"Lidt mere info\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/C#/BlazorWASM/Blazor.txt\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/C#/BlazorWASM/Implementation/ClientOrImplementation\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/C#/BlazorWASM/interfaceClient/IClient\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/C#/Server/Controllers(ServerClient)/info.txt\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/C#/Server/Model/DTO/info.txt\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/C#/Server/Model/Model/info\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/C#/Server/Sender/Sender.txt\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/.gitignore\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/.idea/workspace.xml\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/SEP3.iml\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MacroExpansionManager\">\r\n    <option name=\"directoryName\" value=\"vvq8zeaw\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2DFyZrHnElGjPi9g8m1QPUKCdhr\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/via/SEP3/SEEP/SEP3\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\via\\SEP3\\SEP3\\src\\main\\C#\" />\r\n      <recent name=\"C:\\via\\SEP3\\SEP3\\src\\main\\Server\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.DatabaseTest\">\r\n    <configuration name=\"test\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test\" />\r\n      <module name=\"SEP3\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"DatabaseTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SEP3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"server.database.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"server.database\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"server.database.DatabaseTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.DatabaseTest\" />\r\n        <item itemvalue=\"Application.test\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"53e2bb80-8172-4aea-b459-c96f19318726\" name=\"Changes\" comment=\"\" />\r\n      <created>1660309189889</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1660309189889</updated>\r\n      <workItem from=\"1661088924594\" duration=\"4099000\" />\r\n      <workItem from=\"1661185019329\" duration=\"402000\" />\r\n      <workItem from=\"1661189363835\" duration=\"1511000\" />\r\n      <workItem from=\"1665575574390\" duration=\"1348000\" />\r\n      <workItem from=\"1665577144951\" duration=\"317000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"asdf\">\r\n      <created>1660309404375</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1660309404375</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Added better strings git guts\">\r\n      <created>1661089441964</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661089441964</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"I am comitted!\">\r\n      <created>1661090159364</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661090159364</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Tilføjede en basisk struktur\">\r\n      <created>1661123036096</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661123036096</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Mere maven test\">\r\n      <created>1661189495538</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661189495538</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Mere maven test\">\r\n      <created>1661189515579</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661189515579</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Fiksede package imports\">\r\n      <created>1661189776485</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661189776485</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Fiksede package imports\">\r\n      <created>1661190781239</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661190781239</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"ordne struktur og info om hvad der skal være i de fleste elementer\">\r\n      <created>1665576434399</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665576434399</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"asdf\" />\r\n    <MESSAGE value=\"Added better strings git guts\" />\r\n    <MESSAGE value=\"I am comitted!\" />\r\n    <MESSAGE value=\"Tilføjede en basisk struktur\" />\r\n    <MESSAGE value=\"Tilføjede maven framework.&#10;Tilføjet pom.xml som følge af maven framework.&#10;Ændrede navn på projektet til &quot;SEP3&quot;.&#10;Alt kode mæssigt er rykket under SEP3.src.java&#10;Dedikeret mappe til test under SEP3.src\" />\r\n    <MESSAGE value=\"Mere maven test\" />\r\n    <MESSAGE value=\"Fiksede package imports\" />\r\n    <MESSAGE value=\"ordne struktur og info om hvad der skal være i de fleste elementer\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ordne struktur og info om hvad der skal være i de fleste elementer\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/.idea/workspace.xml	(date 1667381528192)
+@@ -5,14 +5,15 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="53e2bb80-8172-4aea-b459-c96f19318726" name="Changes" comment="Lidt mere info">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/Blazor.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/Implementation/ClientOrImplementation" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazorWASM/interfaceClient/IClient" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Controllers(ServerClient)/info.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Model/DTO/info.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Model/Model/info" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/C#/Server/Sender/Sender.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/BlazerWASM/obj/Debug/net6.0/BlazerWASM.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BlazerWASM/obj/Debug/net6.0/BlazerWASM.csproj.AssemblyReference.cache" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/BlazerWASM/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BlazerWASM/obj/rider.project.restore.info" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/C#/BlazerWASM/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/C#/BlazerWASM/obj/rider.project.restore.info" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/GRPC/obj/Debug/net6.0/GRPC.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GRPC/obj/Debug/net6.0/GRPC.csproj.AssemblyReference.cache" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/GRPC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GRPC/obj/rider.project.restore.info" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/Logic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Logic/obj/rider.project.restore.info" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/Shared/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Shared/obj/rider.project.restore.info" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebAPI/obj/rider.project.restore.info" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -31,7 +32,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="Safe" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -55,15 +56,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/via/SEP3/SEEP/SEP3"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/via/SEP3/SEEP/SEP3&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\via\SEP3\SEP3\src\main\C#" />
+Index: src/main/WebAPI/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16673754028493853
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/WebAPI/obj/rider.project.restore.info b/src/main/WebAPI/obj/rider.project.restore.info
+--- a/src/main/WebAPI/obj/rider.project.restore.info	(revision 03e91c5c7dd67001269ddea2d0f11cee70fa3b30)
++++ b/src/main/WebAPI/obj/rider.project.restore.info	(date 1667381528198)
+@@ -1,1 +1,1 @@
+-16673754028493853
+\ No newline at end of file
++16673813744575126
+\ No newline at end of file
